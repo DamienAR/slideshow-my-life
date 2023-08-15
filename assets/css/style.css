@@ -1,0 +1,28 @@
+.profile {
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.text-title {
+    color: #eee8d5
+}
+
+.text-italic {
+    font-style: italic;
+}
