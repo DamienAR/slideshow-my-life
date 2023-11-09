@@ -1,137 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/reshot-icon-education.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Slideshow my life</title>
-  </head>
-  <body>
-    <div id="app" class="reveal">
-      <div class="slides">
-        <section data-auto-animate>
-          <h1>Slideshow my life</h1>
-          <h4>By Damien Archambault--Roy</h4>
-          <h6>Made with <a href="https://revealjs.com">reveal.js</a></h6>
-        </section>
-        <section data-auto-animate>
-          <h2>Who am I?</h2>
-          <div class="flex flex-nowrap align-center">
-            <div>
-              <img class="profile" src="./assets/images/profile.jfif" alt="Profile image"/>
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/reshot-icon-education.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slideshow my life</title>
+</head>
+
+<body>
+  <div id="app" class="reveal">
+    <div class="slides">
+      <section data-auto-animate>
+        <h1>Slideshow my life</h1>
+        <h4>By Damien Archambault--Roy</h4>
+        <h6>Made with <a href="https://revealjs.com">reveal.js</a></h6>
+      </section>
+      <section data-auto-animate>
+        <h2>Who am I?</h2>
+        <div class="flex flex-nowrap align-center">
+          <div>
+            <img class="profile" src="./assets/images/profile.jfif" alt="Profile image" />
+          </div>
+          <ul>
+            <li>Damien Archambault--Roy</li>
+            <li>24 years old</li>
+            <li>French</li>
+            <li>Software engineer for 4 years</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2>Education</h2>
+        <div class="r-stack">
+          <div class="fragment fade-out" data-fragment-index="0">
+            <p class="text-title"><strong>Software developer</strong></p>
+            <p>Gratuated in June 2019</p>
             <ul>
-              <li>Damien Archambault--Roy</li>
-              <li>24 years old</li>
-              <li>French</li>
-              <li>Software engineer for 4 years</li>
+              <li>Software development with database - analysis and conception</li>
+              <li>Base of network and infrastructure</li>
+              <li>IT market and laws</li>
             </ul>
           </div>
-        </section>
-        <section>
-          <h2>What did I do ?</h2>
-          <section>
-            <h3>Education</h3>
-            <div class="r-stack">
-              <div class="fragment fade-out" data-fragment-index="0">
-                <p class="text-title"><strong>Software developer</strong></p>
-                <p>Gratuated in June 2019</p>
-                <ul>
-                  <li>Software development with database - analysis and conception</li>
-                  <li>Base of network and infrastructure</li>
-                  <li>IT market and laws</li>
-                </ul>
-              </div>
-              <div class="fragment current-visible" data-fragment-index="0">
-                <p class="text-title"><strong>Software Engineer Manager Certificate</strong></p>
-                <p>Gratuated in July 2021</p>
-                <ul>
-                  <li>Full lifecycle of software development</li>
-                  <li>IT projects management</li>
-                  <li>DevOps and Agile culture</li>
-                </ul>
-              </div>
-              <div class="fragment">
-                <p class="text-title"><strong>IT Manager Certificate</strong></p>
-                <p>Gratuated in September 2022</p>
-                <ul>
-                  <li>IT Governance</li>
-                  <li>Scrum Framework</li>
-                  <li>Manager's responsabilities and roles</li>
-                </ul>
-              </div>
-            </div>
-          </section>
-          <section>
-            <h3>Company experiences</h3>
-            <div class="r-stack">
-              <div class="fragment fade-out" data-fragment-index="0">
-                <p class="text-title"><strong>Software Engineer Manager <span class="text-italic">in a work-study program</span></strong></p>
-                <p>August 2019 to December 2020 - <span class="text-italic">DSA Technologies in Semoy, France</span></p>
-                <p>DSA is a company which develop connected solutions, smart sensors with matching web interface, in environment and hotels.</p>
-              </div>
-              <div class="fragment current-visible" data-fragment-index="0">
-                <p class="text-title"><strong>Software Engineer Manager <span class="text-italic">in a work-study program</span></strong></p>
-                <p>January 2020 to September 2022 - <span class="text-italic">GIP RECIA in Orleans, France</span></p>
-                <p>A state-owned company which position itself as a center of resources and skills in IT for state-owned organizations, in the Centre-Val de Loire region.</p>
-              </div>
-              <div class="fragment">
-                <p class="text-title"><strong>Software Engineer Consultant</strong></p>
-                <p>October 2022 to September 2023 - <span class="text-italic">Amaris Consulting in Brussels, Belgium</span></p>
-                <p>Consulting company working in an international context, offering services in multiple domains: Data/IA, Development/Systems or Life Science</p>
-              </div>
-            </div>
-          </section>
-          <section>
-            <h3>Relevant projects</h3>
-            <div class="r-stack">
-              <div class="fragment fade-out" data-fragment-index="0">
-                <p class="text-title"><strong>Data Dashboard - 3 years</strong></p>
-                <p>The aim was to update a dashboard with BI and Data Analysis for stakeholders, with new internal data sources</p>
-                <p>Environment: PHP 7, Symfony, React, GitLab CI/CD, Docker, Kubernetes, REST API, MariaDB, CRON job</p>
-              </div>
-              <div class="fragment" data-fragment-index="0">
-                <p class="text-title"><strong>Authentication portal - 1 year</strong></p>
-                <p>The aim was to create in top of a CIAM solution, a front-end application and a REST API, to provide a central authentication portal for internal services</p>
-                <p>Environment: .NET 6, C#, Blazor, VueJs 3, REST API, Azure DevOps, Kubernetes</p>
-              </div>
-            </div>
-          </section>
-        </section>
-        <section>
-          <h2>What are the next steps?</h2>
-          <div class="r-stack">
-            <div class="fragment fade-out" data-fragment-index="0">
-              <h3>Short term</h3>
-              <p>From software engineer to DevOps/Platform engineer</p>
-              <p>Work more on the system, platform and cloud, to help developers with build, deployment, security and automation for their solution</p>
-            </div>
-            <div class="fragment current-visible" data-fragment-index="0">
-              <h3>Mid Term</h3>
-              <p>Evolve as a technical leader of a team, become a reference or an advisor for programming, DevOps and Agile approach</p>
-            </div>
-            <div class="fragment">
-              <h3>Long Term</h3>
-              <p>Reach the position of CTO, be part of and lead an architectural/technial board to create a substainable and maintable IT department</p>
-            </div>
-          </div>
-        </section>
-        <section>
-          <h2>Want to know more about me ?</h2>
-          <div class="flex flex-nowrap align-center">
-            <div>
-              <a href="https://www.linkedin.com/in/damien-archambault--roy/" target="_blank"><img src="./assets/images/linkedin_QRCode.png" alt="QR Code"/></a>
-            </div>
+          <div class="fragment current-visible" data-fragment-index="0">
+            <p class="text-title"><strong>Software Engineer Manager Certificate</strong></p>
+            <p>Gratuated in July 2021</p>
             <ul>
-              <li><a href="https://www.linkedin.com/in/damien-archambault--roy/" target="_blank">My Linkedin Profile</a></li>
-              <li><a href="mailto:damien.archambaultroy@gmail.com" target="_blank">My email address: damien.archambaultroy@gmail.com</a></li>
-              <li>My phone number: +33 6 11 67 69 63</li>
+              <li>Full lifecycle of software development</li>
+              <li>IT projects management</li>
+              <li>DevOps and Agile culture</li>
             </ul>
           </div>
-          <p><h4>Thanks for your attention. Hope to hear from you soon !</h4></p>
-        </section>
-      </div>
+          <div class="fragment">
+            <p class="text-title"><strong>IT Manager Certificate</strong></p>
+            <p>Gratuated in September 2022</p>
+            <ul>
+              <li>IT Governance</li>
+              <li>Scrum Framework</li>
+              <li>Manager's responsabilities and roles</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Company experiences</h2>
+        <div class="r-stack">
+          <div class="fragment fade-out" data-fragment-index="0">
+            <p class="text-title"><strong>Software Engineer Manager <span class="text-italic">in a work-study
+                  program</span></strong></p>
+            <p>August 2019 to December 2020 - <span class="text-italic">DSA Technologies in Semoy, France</span></p>
+            <p>DSA is a company which develop connected solutions, smart sensors with matching web interface, in
+              environment and hotels.</p>
+          </div>
+          <div class="fragment current-visible" data-fragment-index="0">
+            <p class="text-title"><strong>Software Engineer Manager <span class="text-italic">in a work-study
+                  program</span></strong></p>
+            <p>January 2020 to September 2022 - <span class="text-italic">GIP RECIA in Orleans, France</span></p>
+            <p>A state-owned company which position itself as a center of resources and skills in IT for state-owned
+              organizations, in the Centre-Val de Loire region.</p>
+          </div>
+          <div class="fragment">
+            <p class="text-title"><strong>Software Engineer Consultant</strong></p>
+            <p>October 2022 to September 2023 - <span class="text-italic">Amaris Consulting in Brussels, Belgium</span>
+            </p>
+            <p>Consulting company working in an international context, offering services in multiple domains: Data/IA,
+              Development/Systems or Life Science</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Relevant projects</h2>
+        <div class="r-stack">
+          <div class="fragment fade-out" data-fragment-index="0">
+            <p class="text-title"><strong>Data Dashboard - 3 years</strong></p>
+            <p>The aim was to update a dashboard with BI and Data Analysis for stakeholders, with new internal data
+              sources</p>
+            <p>Environment: PHP 7, Symfony, React, GitLab CI/CD, Docker, Kubernetes, REST API, MariaDB, CRON job</p>
+          </div>
+          <div class="fragment" data-fragment-index="0">
+            <p class="text-title"><strong>Authentication portal - 1 year</strong></p>
+            <p>The aim was to create in top of a CIAM solution, a front-end application and a REST API, to provide a
+              central authentication portal for internal services</p>
+            <p>Environment: .NET 6, C#, Blazor, VueJs 3, REST API, Azure DevOps, Kubernetes</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>What are the next steps?</h2>
+        <div class="r-stack">
+          <div class="fragment fade-out" data-fragment-index="0">
+            <h3>Short term</h3>
+            <p>From software engineer to DevOps/Platform engineer</p>
+            <p>Work more on the system, platform and cloud, to help developers with build, deployment, security and
+              automation for their solution</p>
+          </div>
+          <div class="fragment current-visible" data-fragment-index="0">
+            <h3>Mid Term</h3>
+            <p>Evolve as a technical leader of a team, become a reference or an advisor for programming, DevOps and
+              Agile approach</p>
+          </div>
+          <div class="fragment">
+            <h3>Long Term</h3>
+            <p>Reach the position of CTO, be part of and lead an architectural/technial board to create a substainable
+              and maintable IT department</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Want to know more about me ?</h2>
+        <div class="flex flex-nowrap align-center">
+          <div>
+            <a href="https://www.linkedin.com/in/damien-archambault--roy/" target="_blank"><img
+                src="./assets/images/linkedin_QRCode.png" alt="QR Code" /></a>
+          </div>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/damien-archambault--roy/" target="_blank">My Linkedin Profile</a>
+            </li>
+            <li><a href="mailto:damien.archambaultroy@gmail.com" target="_blank">My email address:
+                damien.archambaultroy@gmail.com</a></li>
+            <li>My phone number: +33 6 11 67 69 63</li>
+          </ul>
+        </div>
+        <p>
+        <h4>Thanks for your attention. Hope to hear from you soon !</h4>
+        </p>
+      </section>
     </div>
-    <script type="module" src="/main.js"></script>
-  </body>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
